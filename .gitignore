@@ -1,0 +1,48 @@
+# Raw genome data (too large for git)
+data/raw/
+data/db/
+
+# Generated processed data (reproducible from pipeline)
+data/processed/
+data/validated/
+
+# Figures (reproducible from pipeline)
+figures/
+
+# Logs
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Conda / virtualenv
+.env
+.venv
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary
+*.tmp
+*.bak
+*~
