@@ -1,0 +1,493 @@
+Assembly_accession	Is_carbapenem_resistant	Assembly_year	N_IS_total	N_IS6_family	N_IS26	Carbapenem_resistance_genes	N_carbapenem_loci	Carbapenemase_type
+GCF_003711065.1	True	2018	112	15	2	KPC-2	1	KPC-type
+GCF_002852995.3	True	2018	60	3	0	NDM-1	1	NDM-type
+GCF_001887995.2	True	2018	56	5	0	NDM-1	1	NDM-type
+GCF_002164855.2	True	2018	86	15	1	KPC-2	1	KPC-type
+GCF_002811335.3	True	2018	83	12	0	IMP-4; NDM-1	2	IMP-type; NDM-type
+GCF_003037615.2	True	2018	84	9	2	NDM-6	1	NDM-type
+GCF_003038215.3	True	2019	131	18	17	KPC-2	1	KPC-type
+GCF_002258055.3	True	2019	115	14	11	KPC-2	1	KPC-type
+GCF_008632875.1	True	2019	88	3	1	KPC-2	1	KPC-type
+GCF_008632835.1	True	2019	54	3	1	KPC-2	1	KPC-type
+GCF_008632765.1	True	2019	68	5	0	NDM-1	1	NDM-type
+GCF_008632745.1	True	2019	55	2	1	NDM-1	1	NDM-type
+GCF_008632785.1	True	2019	31	1	1	NDM-1	1	NDM-type
+GCF_008632735.1	True	2019	69	2	1	NDM-1	1	NDM-type
+GCF_008630475.1	True	2019	52	2	1	KPC-2	1	KPC-type
+GCF_008630355.1	True	2019	48	2	1	KPC-2	1	KPC-type
+GCF_008630315.1	True	2019	48	2	1	KPC-2	1	KPC-type
+GCF_008630305.1	True	2019	55	2	1	NDM-1	1	NDM-type
+GCF_008630255.1	True	2019	65	3	1	NDM-1	1	NDM-type
+GCF_008630215.1	True	2019	61	2	1	NDM-1	1	NDM-type
+GCF_008630225.1	True	2019	66	2	1	NDM-1	1	NDM-type
+GCF_008630195.1	True	2019	49	1	1	NDM-1	1	NDM-type
+GCF_008630175.1	True	2019	62	2	1	NDM-1	1	NDM-type
+GCF_008630125.1	True	2019	66	3	1	NDM-1	1	NDM-type
+GCF_008630085.1	True	2019	62	1	1	NDM-1	1	NDM-type
+GCF_002811325.3	True	2019	93	16	15	KPC-2	1	KPC-type
+GCF_002257935.4	True	2019	72	8	7	KPC-2	1	KPC-type
+GCF_002853435.3	True	2019	106	22	18	KPC-2	1	KPC-type
+GCF_002164835.4	True	2019	91	16	16	KPC-2	3	KPC-type
+GCF_002258145.4	True	2019	75	15	15	KPC-2	1	KPC-type
+GCF_001887985.4	True	2019	73	10	10	KPC-2	1	KPC-type
+GCF_002852975.3	True	2019	128	16	15	KPC-2	1	KPC-type
+GCF_003037325.3	True	2019	77	13	13	KPC-2	1	KPC-type
+GCF_002852945.3	True	2019	91	15	10	NDM-5	1	NDM-type
+GCF_002853475.2	True	2019	79	12	11	NDM-1	1	NDM-type
+GCF_002811305.2	True	2019	88	15	15	KPC-2	2	KPC-type
+GCF_004322795.1	True	2019	102	19	18	KPC-12	2	KPC-type
+GCF_002257765.2	True	2019	87	13	12	KPC-2	1	KPC-type
+GCF_003037005.2	True	2019	123	21	20	KPC-2	1	KPC-type
+GCF_002852365.2	True	2019	115	17	15	KPC-2	1	KPC-type
+GCA_015318225.2	True	2020	36	0	0	KPC-2	1	KPC-type
+GCF_002852785.2	True	2020	115	17	15	KPC-2	1	KPC-type
+GCF_003038135.2	True	2020	90	15	14	KPC-2	1	KPC-type
+GCF_014156515.1	True	2020	58	14	1	KPC-2	1	KPC-type
+GCF_014156395.1	True	2020	63	13	1	KPC-2	1	KPC-type
+GCA_013377395.1	True	2020	30	7	6	NDM-5	1	NDM-type
+GCF_013349085.1	True	2020	124	14	12	KPC-2	1	KPC-type
+GCF_013349065.1	True	2020	125	14	13	KPC-2	1	KPC-type
+GCF_013349045.1	True	2020	122	14	13	KPC-2	1	KPC-type
+GCF_013349025.1	True	2020	125	14	13	KPC-2	1	KPC-type
+GCF_013349005.1	True	2020	125	14	13	KPC-2	1	KPC-type
+GCF_013348985.1	True	2020	118	11	10	KPC-2	1	KPC-type
+GCF_013348965.1	True	2020	124	14	13	KPC-2	1	KPC-type
+GCF_013348945.1	True	2020	118	11	10	KPC-2	1	KPC-type
+GCF_013348925.1	True	2020	118	11	10	KPC-2	1	KPC-type
+GCF_013348905.1	True	2020	124	14	13	KPC-2	1	KPC-type
+GCF_013348885.1	True	2020	124	14	13	KPC-2	1	KPC-type
+GCF_011683145.1	True	2020	49	14	0	KPC-2	1	KPC-type
+GCA_021312515.1	True	2021	127	16	16	KPC-2	2	KPC-type
+GCF_020297705.1	True	2021	46	1	1	NDM-1	1	NDM-type
+GCF_020297665.1	True	2021	59	2	1	NDM-1	1	NDM-type
+GCF_020297625.1	True	2021	122	1	1	NDM-1	1	NDM-type
+GCF_020295105.1	True	2021	52	3	2	NDM-1	1	NDM-type
+GCF_020295085.1	True	2021	48	1	1	NDM-1	1	NDM-type
+GCF_020295025.1	True	2021	50	3	2	NDM-1	1	NDM-type
+GCF_020295005.1	True	2021	52	3	2	NDM-1	1	NDM-type
+GCF_020294905.1	True	2021	69	1	1	IMP-4; NDM-1	2	IMP-type; NDM-type
+GCF_020294855.1	True	2021	47	1	1	NDM-1	1	NDM-type
+GCF_020294845.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294825.1	True	2021	93	3	1	NDM-1	1	NDM-type
+GCF_020294805.1	True	2021	114	3	1	NDM-1	1	NDM-type
+GCF_020294785.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294765.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294745.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294705.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294605.1	True	2021	52	1	1	NDM-1	1	NDM-type
+GCF_020294615.1	True	2021	83	2	1	NDM-5	1	NDM-type
+GCF_020294545.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294515.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294505.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294445.1	True	2021	60	2	1	NDM-1	1	NDM-type
+GCF_020294425.1	True	2021	75	3	2	NDM-1	1	NDM-type
+GCF_020294395.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294365.1	True	2021	51	1	1	NDM-1	1	NDM-type
+GCF_020294265.1	True	2021	50	1	1	NDM-1	1	NDM-type
+GCF_020294245.1	True	2021	59	2	1	NDM-1	1	NDM-type
+GCF_020294225.1	True	2021	58	2	1	NDM-1	1	NDM-type
+GCF_020294145.1	True	2021	60	3	2	NDM-1	1	NDM-type
+GCF_020294045.1	True	2021	71	2	1	NDM-5	1	NDM-type
+GCF_020294005.1	True	2021	72	2	1	NDM-5	1	NDM-type
+GCF_020293985.1	True	2021	78	2	1	NDM-5	1	NDM-type
+GCF_020293925.1	True	2021	89	1	1	NDM-5	1	NDM-type
+GCF_020293875.1	True	2021	91	1	1	NDM-5	1	NDM-type
+GCF_020293615.1	True	2021	86	2	1	NDM-5	1	NDM-type
+GCF_020293585.1	True	2021	79	2	1	NDM-5	1	NDM-type
+GCF_020293525.1	True	2021	87	1	1	NDM-5	1	NDM-type
+GCF_020293505.1	True	2021	89	1	1	NDM-5	1	NDM-type
+GCF_020293425.1	True	2021	71	2	1	NDM-5	1	NDM-type
+GCF_020293365.1	True	2021	74	2	1	NDM-5	1	NDM-type
+GCF_020293325.1	True	2021	76	2	1	NDM-5	1	NDM-type
+GCF_020292925.1	True	2021	83	2	1	NDM-5	1	NDM-type
+GCF_020292865.1	True	2021	111	2	1	NDM-1	1	NDM-type
+GCF_020292815.1	True	2021	81	2	1	NDM-5	1	NDM-type
+GCF_020292695.1	True	2021	72	2	2	NDM-1	1	NDM-type
+GCF_020292705.1	True	2021	50	3	2	NDM-1	1	NDM-type
+GCF_020292685.1	True	2021	114	2	1	NDM-1	1	NDM-type
+GCA_018140695.1	True	2021	75	5	4	KPC-2	1	KPC-type
+GCA_014655455.2	True	2021	104	6	6	NDM-5	1	NDM-type
+GCF_017151605.1	True	2021	49	3	2	NDM-5	1	NDM-type
+GCF_003261955.3	True	2021	92	15	15	KPC-12	2	KPC-type
+GCF_016595605.1	True	2021	134	16	15	KPC-2	1	KPC-type
+GCF_014041645.2	True	2021	119	19	18	KPC-2	1	KPC-type
+GCF_014041505.2	True	2021	122	21	19	KPC-2	1	KPC-type
+GCF_014041845.2	True	2021	122	20	18	KPC-2	1	KPC-type
+GCF_014041735.2	True	2021	115	16	14	KPC-2	1	KPC-type
+GCF_024517305.1	True	2022	88	15	1	NDM-5	1	NDM-type
+GCF_024517245.1	True	2022	66	2	1	NDM-5	1	NDM-type
+GCF_024516535.1	True	2022	70	2	1	NDM-5	1	NDM-type
+GCF_024516355.1	True	2022	64	11	1	NDM-5	1	NDM-type
+GCF_024299245.1	True	2022	77	12	9	KPC-2	1	KPC-type
+GCF_024159985.1	True	2022	87	4	2	KPC-2	1	KPC-type
+GCF_024159905.1	True	2022	87	3	1	KPC-2	1	KPC-type
+GCF_024159705.1	True	2022	80	3	1	KPC-2	1	KPC-type
+GCF_024159615.1	True	2022	82	2	1	KPC-2	1	KPC-type
+GCF_023572965.1	True	2022	125	17	15	KPC-2	1	KPC-type
+GCF_023273305.1	True	2022	85	5	2	IMP-4	1	IMP-type
+GCF_023273255.1	True	2022	71	5	1	NDM-9	1	NDM-type
+GCF_023273245.1	True	2022	171	5	1	IMP-4; NDM-1	2	IMP-type; NDM-type
+GCF_023273165.1	True	2022	60	8	2	NDM-1	1	NDM-type
+GCF_023273135.1	True	2022	85	5	2	IMP-4	1	IMP-type
+GCF_023273105.1	True	2022	54	4	1	NDM-9	1	NDM-type
+GCA_023273045.1	True	2022	90	6	1	NDM-1	1	NDM-type
+GCF_023273025.1	True	2022	66	5	1	NDM-1	1	NDM-type
+GCF_023272955.1	True	2022	95	5	0	IMP-4	1	IMP-type
+GCF_023272945.1	True	2022	91	4	0	IMP-4	1	IMP-type
+GCF_022982715.1	True	2022	100	20	19	KPC-2	1	KPC-type
+GCF_022982615.1	True	2022	135	8	8	KPC-2	1	KPC-type
+GCF_022982595.1	True	2022	109	14	13	KPC-2	1	KPC-type
+GCF_022982575.1	True	2022	89	13	12	KPC-2	1	KPC-type
+GCF_022982555.1	True	2022	135	15	13	KPC-2	1	KPC-type
+GCF_002258175.2	True	2022	145	15	12	NDM-1	1	NDM-type
+GCF_003036645.2	True	2022	66	7	6	NDM-5	1	NDM-type
+GCF_002852325.2	True	2022	40	3	3	NDM-1	1	NDM-type
+GCF_002853385.2	True	2022	51	5	5	NDM-5	5	NDM-type
+GCF_003037185.2	True	2022	84	4	4	NDM-1	1	NDM-type
+GCF_002258105.2	True	2022	61	7	5	KPC-2	1	KPC-type
+GCF_002258005.2	True	2022	57	5	5	KPC-2	1	KPC-type
+GCF_002164695.2	True	2022	75	11	10	KPC-2	1	KPC-type
+GCF_002894385.2	True	2022	80	16	16	KPC-2	1	KPC-type
+GCF_002811425.2	True	2022	75	13	12	KPC-2	1	KPC-type
+GCA_022649725.1	True	2022	100	19	18	KPC-2; NDM-5	2	KPC-type; NDM-type
+GCA_022559125.1	True	2022	97	2	2	KPC-2	1	KPC-type
+GCA_022559105.1	True	2022	85	13	13	KPC-2	1	KPC-type
+GCA_022559085.1	True	2022	84	13	13	KPC-2	1	KPC-type
+GCA_034553075.1	True	2023	120	12	11	KPC	1	KPC-type
+GCA_033155075.1	True	2023	88	13	13	KPC-2	1	KPC-type
+GCF_031432365.1	True	2023	54	5	1	KPC-2	1	KPC-type
+GCF_030284505.1	True	2023	129	16	16	KPC-2	2	KPC-type
+GCF_030284485.1	True	2023	132	21	19	KPC-2	2	KPC-type
+GCF_030169555.1	True	2023	58	13	10	NDM-5	1	NDM-type
+GCF_030169265.1	True	2023	166	24	20	NDM-1	1	NDM-type
+GCF_002852675.2	True	2023	78	11	11	KPC-2	1	KPC-type
+GCF_003038035.2	True	2023	94	16	15	KPC-2	1	KPC-type
+GCA_028472765.1	True	2023	117	18	16	KPC-2	1	KPC-type
+GCA_028472745.1	True	2023	70	2	2	KPC-2	1	KPC-type
+GCA_028472725.1	True	2023	76	2	2	NDM-1	1	NDM-type
+GCA_028472545.1	True	2023	92	11	11	KPC-2	1	KPC-type
+GCF_046254915.1	True	2024	90	12	12	KPC-2	1	KPC-type
+GCF_046196575.1	True	2024	91	12	12	KPC-2	1	KPC-type
+GCF_046196535.1	True	2024	89	12	12	KPC-2	1	KPC-type
+GCA_037807855.1	True	2024	82	12	12	KPC-204	1	KPC-type
+GCA_053165855.1	True	2025	143	22	17	KPC-2	1	KPC-type
+GCA_053078295.1	True	2025	109	6	5	KPC-2	1	KPC-type
+GCA_053078285.1	True	2025	114	13	12	KPC-2	1	KPC-type
+GCA_053078165.1	True	2025	84	3	2	KPC-2	1	KPC-type
+GCA_053078145.1	True	2025	110	10	9	KPC-2	1	KPC-type
+GCA_053077735.1	True	2025	142	20	19	KPC-2	1	KPC-type
+GCA_053077725.1	True	2025	144	14	14	KPC-2	1	KPC-type
+GCA_053077075.1	True	2025	130	12	10	KPC-2	1	KPC-type
+GCA_053077055.1	True	2025	131	12	10	KPC-2	1	KPC-type
+GCA_053076695.1	True	2025	143	15	14	KPC-2	1	KPC-type
+GCA_053076685.1	True	2025	135	13	12	KPC-2	1	KPC-type
+GCA_053076675.1	True	2025	122	18	16	KPC-2	1	KPC-type
+GCA_053076665.1	True	2025	117	19	18	KPC-2	1	KPC-type
+GCA_053076635.1	True	2025	139	22	19	KPC-2	1	KPC-type
+GCA_053076615.1	True	2025	110	19	18	KPC-2	1	KPC-type
+GCA_053076605.1	True	2025	107	12	12	KPC-2	1	KPC-type
+GCA_052975815.1	True	2025	153	20	18	KPC-2	1	KPC-type
+GCA_052975805.1	True	2025	157	17	15	KPC-2	1	KPC-type
+GCA_052975795.1	True	2025	149	14	13	KPC-2	1	KPC-type
+GCA_052975705.1	True	2025	77	3	2	IMP-4	1	IMP-type
+GCA_052975695.1	True	2025	113	7	6	KPC-2	1	KPC-type
+GCA_052975355.1	True	2025	122	12	10	KPC-2	1	KPC-type
+GCA_052975345.1	True	2025	122	9	8	KPC-2	1	KPC-type
+GCA_052975335.1	True	2025	134	11	10	KPC-2	1	KPC-type
+GCA_052975325.1	True	2025	131	11	10	KPC-2	1	KPC-type
+GCA_052975235.1	True	2025	135	15	14	KPC-2	1	KPC-type
+GCF_051776295.1	True	2025	153	13	13	KPC-2; NDM-13	2	KPC-type; NDM-type
+GCF_054113345.1	True	2025	97	11	1	KPC-2	1	KPC-type
+GCF_002258015.3	True	2025	80	15	15	KPC-2	1	KPC-type
+GCF_000445405.1	False	2013	41	1	1	None detected	0	Susceptible
+GCF_009647835.1	False	2019	73	0	0	None detected	0	Susceptible
+GCF_009647715.1	False	2019	52	2	0	None detected	0	Susceptible
+GCF_009647385.1	False	2019	51	2	0	None detected	0	Susceptible
+GCF_013423825.1	False	2020	71	11	10	None detected	0	Susceptible
+GCF_002853115.2	False	2021	64	0	0	None detected	0	Susceptible
+GCA_018140715.1	False	2021	105	12	12	None detected	0	Susceptible
+GCF_016800965.1	False	2021	60	4	4	None detected	0	Susceptible
+GCF_025152765.1	False	2022	135	19	19	None detected	0	Susceptible
+GCF_024518065.1	False	2022	59	2	1	None detected	0	Susceptible
+GCF_024518035.1	False	2022	66	0	0	None detected	0	Susceptible
+GCF_024518005.1	False	2022	50	11	1	None detected	0	Susceptible
+GCF_024517985.1	False	2022	35	1	1	None detected	0	Susceptible
+GCF_024517905.1	False	2022	27	0	0	None detected	0	Susceptible
+GCF_024517885.1	False	2022	153	5	1	None detected	0	Susceptible
+GCF_024517845.1	False	2022	36	4	3	None detected	0	Susceptible
+GCF_024517825.1	False	2022	53	0	0	None detected	0	Susceptible
+GCF_024517745.1	False	2022	129	2	2	None detected	0	Susceptible
+GCF_024517705.1	False	2022	58	3	1	None detected	0	Susceptible
+GCF_024517685.1	False	2022	24	0	0	None detected	0	Susceptible
+GCF_024517665.1	False	2022	55	0	0	None detected	0	Susceptible
+GCF_024517605.1	False	2022	60	2	1	None detected	0	Susceptible
+GCF_024517575.1	False	2022	78	9	1	None detected	0	Susceptible
+GCF_024517535.1	False	2022	87	4	2	None detected	0	Susceptible
+GCF_024517505.1	False	2022	49	0	0	None detected	0	Susceptible
+GCF_024517465.1	False	2022	58	2	1	None detected	0	Susceptible
+GCF_024517455.1	False	2022	17	0	0	None detected	0	Susceptible
+GCF_024517445.1	False	2022	15	0	0	None detected	0	Susceptible
+GCF_024517415.1	False	2022	67	2	1	None detected	0	Susceptible
+GCF_024517405.1	False	2022	47	2	1	None detected	0	Susceptible
+GCF_024517385.1	False	2022	11	0	0	None detected	0	Susceptible
+GCF_024517365.1	False	2022	30	0	0	None detected	0	Susceptible
+GCF_024517285.1	False	2022	15	0	0	None detected	0	Susceptible
+GCF_024517225.1	False	2022	47	0	0	None detected	0	Susceptible
+GCF_024517185.1	False	2022	68	6	1	None detected	0	Susceptible
+GCF_024517145.1	False	2022	94	13	1	None detected	0	Susceptible
+GCF_024517105.1	False	2022	54	8	1	None detected	0	Susceptible
+GCF_024517085.1	False	2022	115	17	1	None detected	0	Susceptible
+GCF_024517065.1	False	2022	110	18	1	None detected	0	Susceptible
+GCF_024517045.1	False	2022	45	1	1	None detected	0	Susceptible
+GCF_024517005.1	False	2022	107	12	1	None detected	0	Susceptible
+GCF_024516965.1	False	2022	78	11	1	None detected	0	Susceptible
+GCF_024516945.1	False	2022	47	9	1	None detected	0	Susceptible
+GCF_024516925.1	False	2022	65	13	1	None detected	0	Susceptible
+GCF_024516885.1	False	2022	41	2	1	None detected	0	Susceptible
+GCF_024516865.1	False	2022	12	0	0	None detected	0	Susceptible
+GCF_024516845.1	False	2022	96	10	1	None detected	0	Susceptible
+GCF_024516825.1	False	2022	39	1	1	None detected	0	Susceptible
+GCF_024516805.1	False	2022	56	2	1	None detected	0	Susceptible
+GCF_024516745.1	False	2022	58	7	1	None detected	0	Susceptible
+GCF_024516725.1	False	2022	60	4	3	None detected	0	Susceptible
+GCF_024516705.1	False	2022	108	2	1	None detected	0	Susceptible
+GCF_024516685.1	False	2022	101	14	2	None detected	0	Susceptible
+GCF_024516645.1	False	2022	51	3	1	None detected	0	Susceptible
+GCF_024516625.1	False	2022	73	2	1	None detected	0	Susceptible
+GCF_024516605.1	False	2022	91	11	1	None detected	0	Susceptible
+GCF_024516585.1	False	2022	15	0	0	None detected	0	Susceptible
+GCF_024516565.1	False	2022	68	8	1	None detected	0	Susceptible
+GCF_024516485.1	False	2022	21	0	0	None detected	0	Susceptible
+GCF_024516465.1	False	2022	102	9	2	None detected	0	Susceptible
+GCF_024516395.1	False	2022	58	0	0	None detected	0	Susceptible
+GCF_024516295.1	False	2022	132	1	1	None detected	0	Susceptible
+GCF_024516255.1	False	2022	17	0	0	None detected	0	Susceptible
+GCF_024496265.1	False	2022	124	15	15	None detected	0	Susceptible
+GCF_024425295.1	False	2022	140	16	1	None detected	0	Susceptible
+GCF_024425235.1	False	2022	67	14	1	None detected	0	Susceptible
+GCF_024159765.1	False	2022	45	2	1	None detected	0	Susceptible
+GCF_024159585.1	False	2022	54	3	1	None detected	0	Susceptible
+GCF_024159505.1	False	2022	65	5	1	None detected	0	Susceptible
+GCF_023650835.1	False	2022	80	5	5	None detected	0	Susceptible
+GCF_023242905.1	False	2022	30	0	0	None detected	0	Susceptible
+GCF_021496545.1	False	2022	39	0	0	None detected	0	Susceptible
+GCF_021395925.1	False	2022	60	1	1	None detected	0	Susceptible
+GCF_021395885.1	False	2022	25	2	1	None detected	0	Susceptible
+GCF_021395875.1	False	2022	105	2	1	None detected	0	Susceptible
+GCF_021395835.1	False	2022	57	4	2	None detected	0	Susceptible
+GCF_021395815.1	False	2022	57	3	1	None detected	0	Susceptible
+GCF_021395765.1	False	2022	59	3	1	None detected	0	Susceptible
+GCF_021395755.1	False	2022	52	4	2	None detected	0	Susceptible
+GCF_021395715.1	False	2022	104	15	1	None detected	0	Susceptible
+GCF_021395675.1	False	2022	57	2	2	None detected	0	Susceptible
+GCF_021395565.1	False	2022	100	2	1	None detected	0	Susceptible
+GCF_021395555.1	False	2022	38	1	1	None detected	0	Susceptible
+GCF_021395535.1	False	2022	22	1	1	None detected	0	Susceptible
+GCF_021395495.1	False	2022	98	28	2	None detected	0	Susceptible
+GCF_021395475.1	False	2022	93	3	1	None detected	0	Susceptible
+GCF_021395415.1	False	2022	75	2	1	None detected	0	Susceptible
+GCF_021395395.1	False	2022	101	1	1	None detected	0	Susceptible
+GCF_021395375.1	False	2022	48	0	0	None detected	0	Susceptible
+GCF_021395345.1	False	2022	67	9	1	None detected	0	Susceptible
+GCF_021395335.1	False	2022	48	2	1	None detected	0	Susceptible
+GCF_021395275.1	False	2022	100	13	2	None detected	0	Susceptible
+GCF_021395255.1	False	2022	44	11	2	None detected	0	Susceptible
+GCF_034719005.1	False	2023	55	1	0	None detected	0	Susceptible
+GCF_034477785.1	False	2023	93	11	10	None detected	0	Susceptible
+GCF_034259285.1	False	2023	78	10	9	None detected	0	Susceptible
+GCF_034259265.1	False	2023	71	8	8	None detected	0	Susceptible
+GCF_033798725.1	False	2023	42	7	6	None detected	0	Susceptible
+GCF_031357365.1	False	2023	57	8	6	None detected	0	Susceptible
+GCF_031357205.1	False	2023	36	8	7	None detected	0	Susceptible
+GCF_040250275.1	False	2024	62	5	3	None detected	0	Susceptible
+GCF_037329525.1	False	2024	106	3	3	None detected	0	Susceptible
+GCF_041449175.1	False	2024	56	1	0	None detected	0	Susceptible
+GCF_037076065.1	False	2024	69	14	1	None detected	0	Susceptible
+GCF_037076075.1	False	2024	35	3	1	None detected	0	Susceptible
+GCF_034931875.1	False	2024	55	1	0	None detected	0	Susceptible
+GCA_056237995.1	False	2025	77	7	5	None detected	0	Susceptible
+GCA_053077775.1	False	2025	92	8	6	None detected	0	Susceptible
+GCA_053077765.1	False	2025	157	13	12	None detected	0	Susceptible
+GCA_053076655.1	False	2025	82	2	1	None detected	0	Susceptible
+GCA_053076645.1	False	2025	70	9	8	None detected	0	Susceptible
+GCA_053076625.1	False	2025	65	11	11	None detected	0	Susceptible
+GCA_052975785.1	False	2025	76	0	0	None detected	0	Susceptible
+GCA_052975775.1	False	2025	58	0	0	None detected	0	Susceptible
+GCA_052975765.1	False	2025	72	0	0	None detected	0	Susceptible
+GCA_052975755.1	False	2025	75	0	0	None detected	0	Susceptible
+GCA_052975745.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052975735.1	False	2025	103	17	12	None detected	0	Susceptible
+GCA_052975725.1	False	2025	71	1	1	None detected	0	Susceptible
+GCA_052975715.1	False	2025	55	0	0	None detected	0	Susceptible
+GCA_052975685.1	False	2025	86	0	0	None detected	0	Susceptible
+GCA_052975675.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052975665.1	False	2025	65	0	0	None detected	0	Susceptible
+GCA_052975655.1	False	2025	69	0	0	None detected	0	Susceptible
+GCA_052975645.1	False	2025	66	0	0	None detected	0	Susceptible
+GCA_052975635.1	False	2025	70	0	0	None detected	0	Susceptible
+GCA_052975625.1	False	2025	94	5	4	None detected	0	Susceptible
+GCA_052975615.1	False	2025	92	13	11	None detected	0	Susceptible
+GCA_052975605.1	False	2025	92	7	6	None detected	0	Susceptible
+GCA_052975595.1	False	2025	54	6	5	None detected	0	Susceptible
+GCA_052975585.1	False	2025	72	0	0	None detected	0	Susceptible
+GCA_052975575.1	False	2025	64	0	0	None detected	0	Susceptible
+GCA_052975565.1	False	2025	66	7	6	None detected	0	Susceptible
+GCA_052975555.1	False	2025	86	1	0	None detected	0	Susceptible
+GCA_052975545.1	False	2025	103	11	9	None detected	0	Susceptible
+GCA_052975535.1	False	2025	132	7	5	None detected	0	Susceptible
+GCA_052975525.1	False	2025	115	10	9	None detected	0	Susceptible
+GCA_052975505.1	False	2025	78	2	2	None detected	0	Susceptible
+GCA_052975495.1	False	2025	76	0	0	None detected	0	Susceptible
+GCA_052975485.1	False	2025	68	0	0	None detected	0	Susceptible
+GCA_052975475.1	False	2025	85	2	2	None detected	0	Susceptible
+GCA_052975465.1	False	2025	66	0	0	None detected	0	Susceptible
+GCA_052975455.1	False	2025	62	4	4	None detected	0	Susceptible
+GCA_052975445.1	False	2025	65	0	0	None detected	0	Susceptible
+GCA_052975435.1	False	2025	80	0	0	None detected	0	Susceptible
+GCA_052975425.1	False	2025	73	0	0	None detected	0	Susceptible
+GCA_052975415.1	False	2025	84	0	0	None detected	0	Susceptible
+GCA_052975405.1	False	2025	76	0	0	None detected	0	Susceptible
+GCA_052975395.1	False	2025	77	0	0	None detected	0	Susceptible
+GCA_052975385.1	False	2025	80	3	3	None detected	0	Susceptible
+GCA_052975375.1	False	2025	90	0	0	None detected	0	Susceptible
+GCA_052975365.1	False	2025	83	0	0	None detected	0	Susceptible
+GCA_052975315.1	False	2025	65	0	0	None detected	0	Susceptible
+GCA_052975305.1	False	2025	85	5	5	None detected	0	Susceptible
+GCA_052975295.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052975285.1	False	2025	78	0	0	None detected	0	Susceptible
+GCA_052975275.1	False	2025	49	0	0	None detected	0	Susceptible
+GCA_052975265.1	False	2025	81	0	0	None detected	0	Susceptible
+GCA_052975255.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052975245.1	False	2025	77	0	0	None detected	0	Susceptible
+GCA_052975225.1	False	2025	87	0	0	None detected	0	Susceptible
+GCA_052975215.1	False	2025	60	0	0	None detected	0	Susceptible
+GCA_052975205.1	False	2025	63	0	0	None detected	0	Susceptible
+GCA_052975195.1	False	2025	70	0	0	None detected	0	Susceptible
+GCA_052974695.1	False	2025	72	0	0	None detected	0	Susceptible
+GCA_052974685.1	False	2025	67	0	0	None detected	0	Susceptible
+GCA_052974675.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052974665.1	False	2025	64	0	0	None detected	0	Susceptible
+GCA_052974655.1	False	2025	89	0	0	None detected	0	Susceptible
+GCA_052974645.1	False	2025	56	0	0	None detected	0	Susceptible
+GCA_052974635.1	False	2025	49	0	0	None detected	0	Susceptible
+GCA_052974625.1	False	2025	51	0	0	None detected	0	Susceptible
+GCA_052974615.1	False	2025	80	0	0	None detected	0	Susceptible
+GCA_052974605.1	False	2025	60	0	0	None detected	0	Susceptible
+GCA_052974595.1	False	2025	83	0	0	None detected	0	Susceptible
+GCA_052974585.1	False	2025	56	0	0	None detected	0	Susceptible
+GCA_052974575.1	False	2025	56	0	0	None detected	0	Susceptible
+GCA_052974545.1	False	2025	52	0	0	None detected	0	Susceptible
+GCA_052974535.1	False	2025	81	0	0	None detected	0	Susceptible
+GCA_052974525.1	False	2025	69	0	0	None detected	0	Susceptible
+GCA_052974515.1	False	2025	70	0	0	None detected	0	Susceptible
+GCA_052974505.1	False	2025	75	0	0	None detected	0	Susceptible
+GCA_052974495.1	False	2025	80	0	0	None detected	0	Susceptible
+GCA_052974425.1	False	2025	66	0	0	None detected	0	Susceptible
+GCA_052974415.1	False	2025	56	4	4	None detected	0	Susceptible
+GCA_052974285.1	False	2025	85	0	0	None detected	0	Susceptible
+GCA_052974275.1	False	2025	62	0	0	None detected	0	Susceptible
+GCA_052974145.1	False	2025	80	0	0	None detected	0	Susceptible
+GCA_052974135.1	False	2025	67	0	0	None detected	0	Susceptible
+GCA_052973825.1	False	2025	101	8	6	None detected	0	Susceptible
+GCA_052973815.1	False	2025	75	0	0	None detected	0	Susceptible
+GCA_052973565.1	False	2025	67	0	0	None detected	0	Susceptible
+GCA_052973555.1	False	2025	81	2	2	None detected	0	Susceptible
+GCA_052973475.1	False	2025	76	0	0	None detected	0	Susceptible
+GCA_052973485.1	False	2025	78	0	0	None detected	0	Susceptible
+GCA_052973375.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052973385.1	False	2025	66	0	0	None detected	0	Susceptible
+GCA_052973305.1	False	2025	61	0	0	None detected	0	Susceptible
+GCA_052973295.1	False	2025	65	0	0	None detected	0	Susceptible
+GCA_052973145.1	False	2025	63	0	0	None detected	0	Susceptible
+GCA_052973125.1	False	2025	66	0	0	None detected	0	Susceptible
+GCA_052973065.1	False	2025	47	0	0	None detected	0	Susceptible
+GCA_052973035.1	False	2025	68	0	0	None detected	0	Susceptible
+GCA_052973005.1	False	2025	63	0	0	None detected	0	Susceptible
+GCA_052972995.1	False	2025	81	0	0	None detected	0	Susceptible
+GCA_052972965.1	False	2025	89	0	0	None detected	0	Susceptible
+GCA_052972955.1	False	2025	68	0	0	None detected	0	Susceptible
+GCA_052972945.1	False	2025	57	0	0	None detected	0	Susceptible
+GCA_052972935.1	False	2025	92	0	0	None detected	0	Susceptible
+GCA_052972925.1	False	2025	62	0	0	None detected	0	Susceptible
+GCA_052972915.1	False	2025	74	0	0	None detected	0	Susceptible
+GCA_052972855.1	False	2025	68	0	0	None detected	0	Susceptible
+GCA_052972645.1	False	2025	50	0	0	None detected	0	Susceptible
+GCA_052972635.1	False	2025	72	0	0	None detected	0	Susceptible
+GCA_052972365.1	False	2025	74	0	0	None detected	0	Susceptible
+GCA_052972355.1	False	2025	65	0	0	None detected	0	Susceptible
+GCA_052972185.1	False	2025	61	0	0	None detected	0	Susceptible
+GCA_052972175.1	False	2025	62	0	0	None detected	0	Susceptible
+GCA_052972065.1	False	2025	72	0	0	None detected	0	Susceptible
+GCA_052972055.1	False	2025	98	0	0	None detected	0	Susceptible
+GCA_052972005.1	False	2025	69	0	0	None detected	0	Susceptible
+GCA_052971995.1	False	2025	74	0	0	None detected	0	Susceptible
+GCA_052971905.1	False	2025	77	0	0	None detected	0	Susceptible
+GCA_052971895.1	False	2025	78	0	0	None detected	0	Susceptible
+GCA_052971645.1	False	2025	69	0	0	None detected	0	Susceptible
+GCA_052971635.1	False	2025	70	0	0	None detected	0	Susceptible
+GCA_052971585.1	False	2025	79	0	0	None detected	0	Susceptible
+GCA_052971575.1	False	2025	63	0	0	None detected	0	Susceptible
+GCA_052971445.1	False	2025	75	0	0	None detected	0	Susceptible
+GCA_052971435.1	False	2025	73	0	0	None detected	0	Susceptible
+GCA_052971425.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052971415.1	False	2025	85	0	0	None detected	0	Susceptible
+GCA_052971365.1	False	2025	72	0	0	None detected	0	Susceptible
+GCA_052971355.1	False	2025	77	0	0	None detected	0	Susceptible
+GCA_052971305.1	False	2025	75	0	0	None detected	0	Susceptible
+GCA_052971295.1	False	2025	67	0	0	None detected	0	Susceptible
+GCA_052971245.1	False	2025	52	0	0	None detected	0	Susceptible
+GCA_052971235.1	False	2025	94	0	0	None detected	0	Susceptible
+GCA_052971165.1	False	2025	49	0	0	None detected	0	Susceptible
+GCA_052971155.1	False	2025	88	0	0	None detected	0	Susceptible
+GCA_052971145.1	False	2025	76	0	0	None detected	0	Susceptible
+GCA_052971135.1	False	2025	66	0	0	None detected	0	Susceptible
+GCA_052971125.1	False	2025	75	0	0	None detected	0	Susceptible
+GCA_052971115.1	False	2025	71	0	0	None detected	0	Susceptible
+GCA_052971105.1	False	2025	50	0	0	None detected	0	Susceptible
+GCA_052971095.1	False	2025	89	0	0	None detected	0	Susceptible
+GCA_052971085.1	False	2025	73	0	0	None detected	0	Susceptible
+GCA_052971075.1	False	2025	80	0	0	None detected	0	Susceptible
+GCA_052971065.1	False	2025	68	0	0	None detected	0	Susceptible
+GCA_052971055.1	False	2025	56	2	2	None detected	0	Susceptible
+GCA_052971045.1	False	2025	68	0	0	None detected	0	Susceptible
+GCA_052971035.1	False	2025	68	0	0	None detected	0	Susceptible
+GCA_052971025.1	False	2025	72	0	0	None detected	0	Susceptible
+GCA_052971015.1	False	2025	51	0	0	None detected	0	Susceptible
+GCA_052955675.1	False	2025	74	0	0	None detected	0	Susceptible
+GCA_052955405.1	False	2025	84	0	0	None detected	0	Susceptible
+GCA_052955375.1	False	2025	29	0	0	None detected	0	Susceptible
+GCA_052955085.1	False	2025	81	0	0	None detected	0	Susceptible
+GCF_049706385.1	False	2025	56	1	0	None detected	0	Susceptible
+GCA_048571725.1	False	2025	43	0	0	None detected	0	Susceptible
+GCF_047528835.1	False	2025	65	0	0	None detected	0	Susceptible
+GCF_047528775.1	False	2025	84	3	1	None detected	0	Susceptible
+GCF_047528635.1	False	2025	71	0	0	None detected	0	Susceptible
+GCF_047528595.1	False	2025	42	3	1	None detected	0	Susceptible
+GCF_047528455.1	False	2025	83	1	1	None detected	0	Susceptible
+GCF_055814305.1	False	2026	38	0	0	None detected	0	Susceptible
+GCF_056388355.1	False	2026	171	10	2	None detected	0	Susceptible
+GCF_056388365.1	False	2026	153	9	1	None detected	0	Susceptible
+GCF_056388335.1	False	2026	89	3	0	None detected	0	Susceptible
+GCF_056388305.1	False	2026	84	10	1	None detected	0	Susceptible
+GCF_056388295.1	False	2026	110	10	2	None detected	0	Susceptible
+GCF_056388275.1	False	2026	119	7	1	None detected	0	Susceptible
+GCF_056388235.1	False	2026	77	7	1	None detected	0	Susceptible
+GCF_056388245.1	False	2026	57	5	0	None detected	0	Susceptible
+GCF_056388215.1	False	2026	199	9	1	None detected	0	Susceptible
+GCF_056388175.1	False	2026	117	8	1	None detected	0	Susceptible
+GCF_056388155.1	False	2026	113	5	2	None detected	0	Susceptible
+GCF_056388135.1	False	2026	73	4	1	None detected	0	Susceptible
+GCF_056388115.1	False	2026	73	2	0	None detected	0	Susceptible
+GCF_056388095.1	False	2026	118	12	2	None detected	0	Susceptible
+GCF_056388075.1	False	2026	129	3	1	None detected	0	Susceptible
+GCF_056388055.1	False	2026	91	3	1	None detected	0	Susceptible
+GCF_056388035.1	False	2026	125	3	1	None detected	0	Susceptible
+GCF_056387875.1	False	2026	57	2	1	None detected	0	Susceptible
+GCF_056387825.1	False	2026	86	4	1	None detected	0	Susceptible
+GCF_056387795.1	False	2026	114	3	1	None detected	0	Susceptible
+GCF_056387765.1	False	2026	94	10	1	None detected	0	Susceptible
+GCF_056387755.1	False	2026	102	9	1	None detected	0	Susceptible
+GCF_056387695.1	False	2026	140	5	2	None detected	0	Susceptible
+GCF_056387675.1	False	2026	57	2	1	None detected	0	Susceptible
+GCF_056387685.1	False	2026	35	2	1	None detected	0	Susceptible
+GCF_055790475.1	False	2026	65	0	0	None detected	0	Susceptible

@@ -6,7 +6,7 @@
 ^1^ Independent Researcher
 
 **\*Corresponding author:** ZJY  
-E-mail: [to be added prior to submission]
+E-mail: jiayu6954@gmail.com
 
 **Running title:** IS26 composite transposons in Chinese CRKP (≤50 characters)
 
@@ -84,7 +84,7 @@ Prevalence rates were reported with Wilson score 95% confidence intervals. Compo
 
 ### Data availability and reproducibility
 
-All genome accessions are publicly available from NCBI GenBank. Analysis scripts will be deposited in a public repository prior to formal submission and are available upon reasonable request in the interim. The complete data audit report, quality control manifest, and all processed data files are provided as Supplementary Material.
+All genome accessions are publicly available from NCBI GenBank. Analysis scripts are publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis. The complete data audit report, quality control manifest, and all processed data files are provided as Supplementary Material.
 
 ---
 
@@ -162,7 +162,7 @@ We present a population genomic characterisation of IS element architecture in 4
 
 **Conflicts of interest:** The author declares no conflicts of interest.
 
-**Data availability:** All genome assembly accession numbers are listed in Supplementary Table S1 and are publicly available from NCBI GenBank (https://www.ncbi.nlm.nih.gov/assembly/). Analysis code will be deposited in a public repository prior to formal submission and is available upon reasonable request.
+**Data availability:** All genome assembly accession numbers are listed in Supplementary Table S1 and are publicly available from NCBI GenBank (https://www.ncbi.nlm.nih.gov/assembly/). Analysis code is publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis (MIT License).
 
 **Ethics statement:** This study used exclusively publicly available, de-identified genomic sequence data deposited in NCBI GenBank and did not involve direct human subject participation. No ethics approval was required.
 

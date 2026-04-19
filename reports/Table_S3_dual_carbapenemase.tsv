@@ -1,0 +1,6 @@
+Assembly_accession	Assembly_year	Carbapenem_resistance_genes	Carbapenemase_classes	N_IS6_copies	N_IS_AMR_pairs	N_composite_transposon_pairs	Notes
+GCA_022649725.1	2022	KPC-2; NDM-5	KPC-type; NDM-type	19	31	25	KPC + NDM co-carriage
+GCF_002811335.3	2018	IMP-4; NDM-1	IMP-type; NDM-type	12	30	30	KPC + NDM co-carriage
+GCF_020294905.1	2021	IMP-4; NDM-1	IMP-type; NDM-type	1	12	12	KPC + NDM co-carriage
+GCF_023273245.1	2022	IMP-4; NDM-1	IMP-type; NDM-type	5	3	0	KPC + NDM co-carriage
+GCF_051776295.1	2025	KPC-2; NDM-13	KPC-type; NDM-type	13	25	25	KPC + NDM co-carriage
