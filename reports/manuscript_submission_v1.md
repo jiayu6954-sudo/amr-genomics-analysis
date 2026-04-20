@@ -162,7 +162,7 @@ We present a population genomic characterisation of IS element architecture in 4
 
 **Conflicts of interest:** The author declares no conflicts of interest.
 
-**Data availability:** All genome assembly accession numbers are listed in Supplementary Table S1 and are publicly available from NCBI GenBank (https://www.ncbi.nlm.nih.gov/assembly/). Analysis code is publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis (MIT License).
+**Data availability:** All genome assembly accession numbers are listed in Supplementary Table S1 and are publicly available from NCBI GenBank (https://www.ncbi.nlm.nih.gov/assembly/). Analysis code is publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis (MIT License). Processed results, figures, supplementary tables, and the manuscript are deposited at Zenodo (https://doi.org/10.5281/zenodo.19666120).
 
 **Ethics statement:** This study used exclusively publicly available, de-identified genomic sequence data deposited in NCBI GenBank and did not involve direct human subject participation. No ethics approval was required.
 
