@@ -20,17 +20,7 @@ E-mail: jiayu6954@gmail.com
 
 ## Abstract
 
-**Background:**  
-Carbapenem-resistant *Klebsiella pneumoniae* (CRKP) imposes a severe and growing burden on Chinese clinical settings. Insertion sequences (IS elements), particularly IS26 of the IS6 family, drive horizontal mobilisation of carbapenem resistance genes through composite transposon formation, yet the population-level genomic architecture underpinning this process in China has not been systematically characterised.
-
-**Methods:**  
-We retrieved 677 complete or near-complete *K. pneumoniae* genome assemblies from Chinese clinical sources in NCBI GenBank and applied a seven-criterion quality-control pipeline, retaining 492 high-quality genomes. Carbapenem resistance genes were detected by GFF3 annotation scanning and sequence-verified against the Comprehensive Antibiotic Resistance Database (CARD v3.3) using protein homology search (phmmer). IS element genomic context within ±10-kb of each resistance locus was characterised from genome annotations. IS6-family annotation gaps were corrected by PFAM PF01527 hidden Markov model (HMM) search (pyhmmer 0.12). Temporal submission bias in public databases was quantified by Fisher's exact test and corrected through cohort stratification.
-
-**Results:**  
-Carbapenem resistance was identified in 200 of 492 genomes (40.7%; 95% CI 36.4–45.0%), with 217 resistance gene loci verified by CARD protein homology (100% confirmation rate). KPC-type carbapenemases predominated (54.5% of resistant genomes), followed by NDM-type (44.0%) and IMP-type (4.0%). Five genomes co-carried two distinct carbapenemase classes. IS element flanking analysis of 2,985 IS–resistance gene context pairs demonstrated a composite transposon rate of 94.6% (pair level) and 78.3% (per unique locus; exact 95% CI 72.3–83.6%). IS6-family elements (predominantly IS26) accounted for 32.5% of all identified IS elements. We identified a large, previously unreported temporal submission bias in NCBI: pre-2022 assemblies comprised 93.5% resistant strains versus 23.0% in 2022+ assemblies (OR = 48.0; 95% CI 21.2–115.9; *p* = 2.0×10⁻⁴⁶). In the 2025 submission cohort (n = 188), where the resistance prevalence of 15.4% is consistent with national surveillance data, IS6 genomic copy number was a near-perfect single-feature predictor of carbapenem resistance (area under the receiver operating characteristic curve [AUC] = 0.976; Cliff's δ = 0.952; *p* = 2.2×10⁻²³).
-
-**Conclusions:**  
-IS element composite transposon structures flank 94–95% of carbapenem resistance loci across all temporal subgroups, representing an invariant mechanistic signature of resistance gene mobilisation in Chinese clinical *K. pneumoniae*. IS6 genomic copy number predicts carbapenem resistance with near-perfect accuracy in representative surveillance cohorts. Our identification and quantification of submission bias in NCBI genomic databases provides an important methodological caution for genomic epidemiology studies relying on public repositories.
+Carbapenem-resistant *Klebsiella pneumoniae* (CRKP) is a WHO critical-priority pathogen whose resistance gene dissemination is driven by IS26-mediated composite transposons, yet the population-level genomic architecture of this mechanism in China remains uncharacterised at scale. We retrieved 677 *K. pneumoniae* assemblies from NCBI GenBank, applied a seven-criterion quality-control pipeline to retain 492 high-quality genomes, and sequence-verified all 217 carbapenem resistance gene instances against CARD v3.3 (100% confirmation). IS element flanking analysis demonstrated a composite transposon rate of 94.6% at the IS–gene pair level and 78.3% at the unique locus level, invariant across carbapenemase type and assembly year. IS6 family elements (predominantly IS26) accounted for 36.8% of classified IS elements and were significantly enriched at KPC-type loci. In the representative 2025 surveillance cohort (n=188; resistance prevalence 15.4%, consistent with national surveillance data), IS6 genomic copy number was a near-perfect single-feature predictor of carbapenem resistance (AUC=0.976; Cliff's δ=0.952; *p*=2.2×10⁻²³), with resistant genomes carrying a median of 13 IS6 copies versus 0 in susceptible strains. We additionally identify and quantify a previously unreported temporal submission bias in NCBI genomic repositories (pre-2022 resistance prevalence 93.5% versus 23.0% post-2022; OR=48.0; *p*=2.0×10⁻⁴⁶). These findings establish IS26-mediated composite transposition as the invariant structural mechanism of resistance gene mobilisation in Chinese clinical CRKP and identify IS6 genomic burden as a high-accuracy surveillance biomarker.
 
 ---
 
@@ -45,46 +35,6 @@ Insertion sequences (IS elements) are the simplest and most abundant mobile gene
 Despite the mechanistic importance of IS elements in resistance gene mobilisation, systematic population-level analyses of IS element genomic architecture around carbapenem resistance genes in Chinese clinical *K. pneumoniae* remain limited. Most published work has focused on selected outbreak clones or individual plasmid characterisations, and no study has simultaneously: (i) characterised IS element flanking structures across the full diversity of carbapenem resistance gene types; (ii) quantified IS6 genomic burden as a phenotypic predictor; (iii) performed sequence-level verification of resistance gene assignments; or (iv) assessed and corrected for submission bias in public genomic databases. These gaps leave critical questions about the generalisability of IS26-mediated resistance mobilisation unanswered.
 
 Here, we present a comprehensive population genomic analysis of 492 validated Chinese clinical *K. pneumoniae* genomes retrieved from NCBI GenBank, incorporating sequence-level resistance gene verification, IS element HMM-based reclassification, and temporal stratification to address public database submission bias. We report the composite transposon prevalence, IS family landscape, and IS6 genomic burden as a resistance predictor, providing both mechanistic insights and methodological guidance for future genomic epidemiology studies.
-
----
-
-## Materials and Methods
-
-### Genome retrieval and quality control
-
-*K. pneumoniae* genome assemblies were retrieved from NCBI GenBank (accessed April 2026) using the Entrez Programming Utilities API (E-utilities, NCBI). The search query specified: (i) organism = *Klebsiella pneumoniae*; (ii) isolation country = China; (iii) assembly level ∈ {Complete Genome, Chromosome, Scaffold}; and (iv) current (non-superseded, non-withdrawn) assembly status. A total of 677 assemblies were identified. For each assembly, three files were downloaded: the GFF3 feature annotation (`.gff.gz`), genome FASTA (`.fna.gz`), and assembly statistics report (`.txt`). File integrity was confirmed by gzip decompression and MD5 checksum verification against NCBI checksums.
-
-Quality control was applied sequentially: (i) genome size 4.8–6.5 Mb; (ii) scaffold N50 ≥ 50 kb; (iii) annotated CDS count ≥ 3,000; (iv) GFF3 file successfully decompressed and parseable; (v) genome FASTA containing ≥ 1 contig; (vi) computed FASTA size within 5% of assembly statistics-reported size; (vii) absence of invalid DNA characters. Assemblies failing any criterion were excluded. Of 677 retrieved assemblies, 181 (26.7%) lacked GFF3 annotation files due to a systematic discrepancy between GCA and GCF identifiers in NCBI GenBank FTP paths, and were excluded. Four additional assemblies failed size or N50 thresholds. A final cohort of 492 genomes passed all quality-control criteria and formed the analytical dataset.
-
-Data integrity was assessed by a dedicated auditing module that additionally screened for: registry duplicates (same accession listed twice); BioSample duplicates (two assemblies from the same BioSample identifier, indicating the same biological isolate submitted twice); gzip corruption by full-file decompression; and GFF3 format validity (coordinate sanity, strand character validation). No registry or BioSample duplicates were detected, and no gzip corruption was observed.
-
-### Carbapenem resistance gene detection
-
-Resistance gene identification employed a two-tier strategy. Tier 1 used NCBI AMRFinderPlus precomputed results where available; these were present for zero assemblies in this cohort, so all calls used Tier 2. Tier 2 applied validated regular-expression patterns against GFF3 `product`, `gene`, and `Note` attribute fields, targeting: NDM-type alleles (`NDM-\d`); KPC-type alleles (`KPC-\d|blaKPC`); OXA carbapenemases (OXA-48, OXA-181, OXA-232 literal matches); IMP-type alleles (`IMP-\d|blaIMP`); VIM-type alleles (`VIM-\d|blaVIM`); and a generic carbapenemase descriptor (`carbapenem.{0,30}(resistance|beta-lactamase)`). Patterns were anchored to allele designations (requiring a digit suffix) to exclude metabolic enzymes sharing acronyms (IMP dehydrogenase, IMP cyclohydrolase, guanosine monophosphate kinase). Gene names were normalised to canonical allele designations using a hierarchical extraction function (bla-prefix priority > allele name > product string extraction).
-
-Sequence-level verification was performed for all 217 detected carbapenem resistance gene instances. For each hit, the protein-coding sequence was extracted from the genome FASTA by slicing the relevant contig coordinates and translating using the standard genetic code (with reverse complementation for minus-strand features). Protein sequences ≥ 50 amino acids were searched against the CARD v3.3 Protein Homolog Model database (4,840 proteins; `protein_fasta_protein_homolog_model.fasta`) using phmmer (pyhmmer 0.12.0; *E*-value ≤ 10⁻⁵). Hits were classified as: CONFIRMED (CARD best-hit gene name consistent with detected allele); NAME_MISMATCH (CARD hit present but gene name differs); NO_HIT (no CARD hit at threshold); or EXTRACT_FAIL (protein extraction failure).
-
-### IS element identification and genomic context analysis
-
-IS elements were identified in GFF3 files by matching `product`, `gene`, and `Note` annotations against IS-family keywords: `IS\d+`, `ISKpn\d*`, `transposase`, `insertion sequence`, `Tn\d+`, and `Tn4401`. IS family names were extracted from GFF3 annotations using a standardised pattern that preferentially resolves Tn-prefixed transposons before IS family designations. Features matching `transposase` or `insertion sequence` but lacking a specific family designation were classified as `IS_unknown`.
-
-For each resistance gene locus, all IS element features on the same contig within a ±10-kb flanking window were identified. Gap distance was computed as the non-overlapping sequence length between the outermost IS element coordinate and the nearest resistance gene boundary (0 if features overlap). Each IS–resistance gene pair was assigned a position (UPSTREAM or DOWNSTREAM) based on which side had the smaller gap. At the locus level, flanking architecture was classified as: COMPOSITE_TRANSPOSON (IS elements on both upstream and downstream sides); SINGLE_IS_UPSTREAM; SINGLE_IS_DOWNSTREAM; or NO_IS. Pair-level counts enumerate each individual IS–resistance gene pairing (a gene flanked by *k* upstream and *m* downstream IS elements contributes *k × m* pair records).
-
-### IS6 annotation correction by HMMER
-
-GFF3 `IS_unknown` features were subjected to protein sequence extraction and HMM-based reclassification using the PFAM PF01527 HMM (IS6 family transposase; downloaded from the EBI InterPro API). A feature was reclassified as IS6 if pairwise domain alignment identity ≥ 25% over ≥ 80% of the HMM length with *E*-value ≤ 10⁻⁵. Per-genome IS6 copy numbers were recomputed after reclassification, and IS6 burden statistics (median, AUC, Cliff's δ) were recalculated with and without HMMER correction.
-
-### Temporal stratification and submission bias analysis
-
-Assembly submission year was extracted from NCBI assembly metadata. Submission bias was assessed by comparing carbapenem resistance rates across temporal strata using Fisher's exact test and odds ratios with 95% confidence intervals. IS6 burden statistics were computed independently for each temporal stratum. The 2025 submission cohort (assemblies with submission year 2025) was pre-specified as the primary sensitivity analysis cohort based on (i) its resistance rate being consistent with Chinese national surveillance data (~15%) and (ii) it being the largest single-year stratum (n = 188).
-
-### Statistical methods
-
-Prevalence rates were reported with Wilson score 95% confidence intervals. Composite transposon rates used Clopper–Pearson exact 95% confidence intervals. IS6 burden comparisons between resistant and susceptible groups used the Mann–Whitney *U* test (one-sided, alternative = *greater*). Effect size was quantified as Cliff's δ (range −1 to +1; |δ| > 0.47 = large, > 0.33 = medium, > 0.11 = small) [14] and AUC derived directly from the Mann–Whitney statistic (AUC = *U*_greater / (*n*_resistant × *n*_susceptible)). IS family non-uniformity was assessed by chi-square goodness-of-fit against the null hypothesis of equal frequency across families. All analyses used Python 3.12 with pandas (2.x), scipy (1.x), numpy (2.x), and pyhmmer (0.12.0).
-
-### Data availability and reproducibility
-
-All genome accessions are publicly available from NCBI GenBank. Analysis scripts are publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis. The complete data audit report, quality control manifest, and all processed data files are provided as Supplementary Material.
 
 ---
 
@@ -156,13 +106,59 @@ We present a population genomic characterisation of IS element architecture in 4
 
 ---
 
+---
+
+## Materials and Methods
+
+### Genome retrieval and quality control
+
+*K. pneumoniae* genome assemblies were retrieved from NCBI GenBank (accessed April 2026) using the Entrez Programming Utilities API (E-utilities, NCBI). The search query specified: (i) organism = *Klebsiella pneumoniae*; (ii) isolation country = China; (iii) assembly level ∈ {Complete Genome, Chromosome, Scaffold}; and (iv) current (non-superseded, non-withdrawn) assembly status. A total of 677 assemblies were identified. For each assembly, three files were downloaded: the GFF3 feature annotation (`.gff.gz`), genome FASTA (`.fna.gz`), and assembly statistics report (`.txt`). File integrity was confirmed by gzip decompression and MD5 checksum verification against NCBI checksums.
+
+Quality control was applied sequentially: (i) genome size 4.8–6.5 Mb; (ii) scaffold N50 ≥ 50 kb; (iii) annotated CDS count ≥ 3,000; (iv) GFF3 file successfully decompressed and parseable; (v) genome FASTA containing ≥ 1 contig; (vi) computed FASTA size within 5% of assembly statistics-reported size; (vii) absence of invalid DNA characters. Assemblies failing any criterion were excluded. Of 677 retrieved assemblies, 181 (26.7%) lacked GFF3 annotation files due to a systematic discrepancy between GCA and GCF identifiers in NCBI GenBank FTP paths, and were excluded. Four additional assemblies failed size or N50 thresholds. A final cohort of 492 genomes passed all quality-control criteria and formed the analytical dataset.
+
+Data integrity was assessed by a dedicated auditing module that additionally screened for: registry duplicates (same accession listed twice); BioSample duplicates (two assemblies from the same BioSample identifier, indicating the same biological isolate submitted twice); gzip corruption by full-file decompression; and GFF3 format validity (coordinate sanity, strand character validation). No registry or BioSample duplicates were detected, and no gzip corruption was observed.
+
+### Carbapenem resistance gene detection
+
+Resistance gene identification employed a two-tier strategy. Tier 1 used NCBI AMRFinderPlus precomputed results where available; these were present for zero assemblies in this cohort, so all calls used Tier 2. Tier 2 applied validated regular-expression patterns against GFF3 `product`, `gene`, and `Note` attribute fields, targeting: NDM-type alleles (`NDM-\d`); KPC-type alleles (`KPC-\d|blaKPC`); OXA carbapenemases (OXA-48, OXA-181, OXA-232 literal matches); IMP-type alleles (`IMP-\d|blaIMP`); VIM-type alleles (`VIM-\d|blaVIM`); and a generic carbapenemase descriptor (`carbapenem.{0,30}(resistance|beta-lactamase)`). Patterns were anchored to allele designations (requiring a digit suffix) to exclude metabolic enzymes sharing acronyms (IMP dehydrogenase, IMP cyclohydrolase, guanosine monophosphate kinase). Gene names were normalised to canonical allele designations using a hierarchical extraction function (bla-prefix priority > allele name > product string extraction).
+
+Sequence-level verification was performed for all 217 detected carbapenem resistance gene instances. For each hit, the protein-coding sequence was extracted from the genome FASTA by slicing the relevant contig coordinates and translating using the standard genetic code (with reverse complementation for minus-strand features). Protein sequences ≥ 50 amino acids were searched against the CARD v3.3 Protein Homolog Model database (4,840 proteins; `protein_fasta_protein_homolog_model.fasta`) using phmmer (pyhmmer 0.12.0; *E*-value ≤ 10⁻⁵). Hits were classified as: CONFIRMED (CARD best-hit gene name consistent with detected allele); NAME_MISMATCH (CARD hit present but gene name differs); NO_HIT (no CARD hit at threshold); or EXTRACT_FAIL (protein extraction failure).
+
+### IS element identification and genomic context analysis
+
+IS elements were identified in GFF3 files by matching `product`, `gene`, and `Note` annotations against IS-family keywords: `IS\d+`, `ISKpn\d*`, `transposase`, `insertion sequence`, `Tn\d+`, and `Tn4401`. IS family names were extracted from GFF3 annotations using a standardised pattern that preferentially resolves Tn-prefixed transposons before IS family designations. Features matching `transposase` or `insertion sequence` but lacking a specific family designation were classified as `IS_unknown`.
+
+For each resistance gene locus, all IS element features on the same contig within a ±10-kb flanking window were identified. Gap distance was computed as the non-overlapping sequence length between the outermost IS element coordinate and the nearest resistance gene boundary (0 if features overlap). Each IS–resistance gene pair was assigned a position (UPSTREAM or DOWNSTREAM) based on which side had the smaller gap. At the locus level, flanking architecture was classified as: COMPOSITE_TRANSPOSON (IS elements on both upstream and downstream sides); SINGLE_IS_UPSTREAM; SINGLE_IS_DOWNSTREAM; or NO_IS. Pair-level counts enumerate each individual IS–resistance gene pairing (a gene flanked by *k* upstream and *m* downstream IS elements contributes *k × m* pair records).
+
+### IS6 annotation correction by HMMER
+
+GFF3 `IS_unknown` features were subjected to protein sequence extraction and HMM-based reclassification using the PFAM PF01527 HMM (IS6 family transposase; downloaded from the EBI InterPro API). A feature was reclassified as IS6 if pairwise domain alignment identity ≥ 25% over ≥ 80% of the HMM length with *E*-value ≤ 10⁻⁵. Per-genome IS6 copy numbers were recomputed after reclassification, and IS6 burden statistics (median, AUC, Cliff's δ) were recalculated with and without HMMER correction.
+
+### Temporal stratification and submission bias analysis
+
+Assembly submission year was extracted from NCBI assembly metadata. Submission bias was assessed by comparing carbapenem resistance rates across temporal strata using Fisher's exact test and odds ratios with 95% confidence intervals. IS6 burden statistics were computed independently for each temporal stratum. The 2025 submission cohort (assemblies with submission year 2025) was pre-specified as the primary sensitivity analysis cohort based on (i) its resistance rate being consistent with Chinese national surveillance data (~15%) and (ii) it being the largest single-year stratum (n = 188).
+
+### Statistical methods
+
+Prevalence rates were reported with Wilson score 95% confidence intervals. Composite transposon rates used Clopper–Pearson exact 95% confidence intervals. IS6 burden comparisons between resistant and susceptible groups used the Mann–Whitney *U* test (one-sided, alternative = *greater*). Effect size was quantified as Cliff's δ (range −1 to +1; |δ| > 0.47 = large, > 0.33 = medium, > 0.11 = small) [14] and AUC derived directly from the Mann–Whitney statistic (AUC = *U*_greater / (*n*_resistant × *n*_susceptible)). IS family non-uniformity was assessed by chi-square goodness-of-fit against the null hypothesis of equal frequency across families. All analyses used Python 3.12 with pandas (2.x), scipy (1.x), numpy (2.x), and pyhmmer (0.12.0).
+
+### Data availability and reproducibility
+
+All genome accessions are publicly available from NCBI GenBank. Analysis scripts are publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis. The complete data audit report, quality control manifest, and all processed data files are provided as Supplementary Material.
+
+---
+
+---
+
 ## Declarations
 
 **Funding:** This work received no external funding.
 
 **Conflicts of interest:** The author declares no conflicts of interest.
 
-**Data availability:** All genome assembly accession numbers are listed in Supplementary Table S1 and are publicly available from NCBI GenBank (https://www.ncbi.nlm.nih.gov/assembly/). Analysis code is publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis (MIT License). Processed results, figures, supplementary tables, and the manuscript are deposited at Zenodo (https://doi.org/10.5281/zenodo.19666120).
+**Data availability:** All genome assembly accession numbers are listed in Supplementary Table S1 and are publicly available from NCBI GenBank (https://www.ncbi.nlm.nih.gov/assembly/). Processed results, figures, supplementary tables, and the manuscript are deposited at Zenodo (https://doi.org/10.5281/zenodo.19666120).
+
+**Code availability:** All analysis code is publicly available at https://github.com/jiayu6954-sudo/amr-genomics-analysis (MIT License). The pipeline requires Python ≥3.11, pandas, scipy, numpy, pyhmmer ≥0.12, and requests; full dependency list is provided in `requirements.txt` in the repository.
 
 **Ethics statement:** This study used exclusively publicly available, de-identified genomic sequence data deposited in NCBI GenBank and did not involve direct human subject participation. No ethics approval was required.
 
